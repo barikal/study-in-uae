@@ -1,0 +1,24 @@
+# Ignore Conda environment folders (if accidentally created in project)
+env/
+venv/
+.docenv/
+
+# Ignore VS Code personal settings
+.vscode/
+
+# Ignore build artifacts
+build/
+*.docx
+*.pdf
+*.zip
+
+# Ignore temporary and OS files
+.DS_Store
+Thumbs.db
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore log files
+*.log

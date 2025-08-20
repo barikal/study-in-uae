@@ -1,0 +1,6 @@
+site_name: My Co-Creation Docs
+nav:
+  - Home: manuscript/01_introduction.md
+docs_dir: manuscript
+theme:
+  name: material

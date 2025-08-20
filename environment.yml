@@ -1,0 +1,16 @@
+name: docenv
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pandoc
+  - pip:
+      - mkdocs
+      - mkdocs-material
+      - mkdocs-include-markdown-plugin
+      - mkdocs-mermaid2-plugin
+      - mkdocs-section-index
+      - mkdocs-git-revision-date-localized-plugin
+      - mkdocs-awesome-pages-plugin
